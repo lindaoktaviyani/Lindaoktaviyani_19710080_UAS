@@ -9,7 +9,7 @@ class halaman extends StatelessWidget {
     return new Scaffold(
       appBar: new AppBar(
         title: new Text("Heading"),
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.grey,
       ),
       body: Container(
           child: Row(
@@ -24,7 +24,7 @@ class halaman extends StatelessWidget {
                 },
                 iconSize: 70.0,
               ),
-              Text("Sport")
+              Text("Health")
             ],
           ),
           Column(
