@@ -33,7 +33,7 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Center(child: Icon(Icons.menu_book)),
+          Center(child: Icon(Icons.menu_book, size: 80.0)),
           SizedBox(
             height: 24.0,
           ),
